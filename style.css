@@ -1,0 +1,165 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #000;
+	display: flex;
+}
+.navbar{
+	background-color: #1E1F26;
+	height: 100vh;
+	width: 200px;
+	margin-left: 100px 0;
+	color: #fff;
+	padding-left: 15px;
+}
+
+.logo{
+	padding: 20px 0 0;
+	font-size: 1.8em;
+	text-transform: uppercase;
+}
+
+h5{
+	text-transform: uppercase;
+	
+	color: darkgray;
+}
+
+.dropdown{
+	background-color: #444;
+	width: 90%;
+	margin: 2px 0 2px 0;
+	line-height: 40px;
+	padding-left: 30px;
+	position: relative;
+}
+
+.dropdown span{
+	position: absolute;
+	right: 15px;
+	font-weight: 800;
+	font-size: 1.5em;
+	transform: rotate(90deg);
+	cursor: pointer;
+}
+.dropdown span{
+	position: absolute;
+	right: 15px;
+	font-size: 1.5em;
+	transform: rotate(90deg);
+	font-weight: 800;
+	cursor: pointer;
+}
+
+.description{
+	padding: 5px 0 5px 40px;
+	background-color: #444;
+	width: 90%;
+}
+
+ul,p{
+	margin-top: 30px;
+	list-style: none;
+	letter-spacing: 2px;
+	font-size: large;
+	font-weight: 800;
+}
+
+li{
+	padding: 7px;
+	letter-spacing: 2px;
+	font-size: large;
+	font-weight: 800;
+}
+
+li span{
+	background-color: orange;
+	font-size: .8em;
+	color: #000;
+	font-weight: 800;
+}
+
+hr{
+	height: 3px;
+	width: 90%;
+	background-image: linear-gradient(to right, #6ba5d1, #dd7600, #d30000, #d63200, #48de7b, #64e374, #b9e204, #92eb66, #74f290, #5bf7b6, #ff0101, #5ffbf1);
+}
+
+.search-bar{
+	width: 82vw;
+	height: 40px;
+	margin: 15px;
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+.search-bar input{
+width: 100%;
+height: 100%;
+background-color: #444444;
+}
+
+.pin{
+	width: 40px;
+	height: 40px;
+	background-color: #444;
+	position: absolute;
+	right: 85px;
+	top: 15px;
+	font-size: 2em;
+	transform: rotate(270deg);
+
+
+}
+
+.main-menu{
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	
+}
+
+.main-menu ul li{
+	padding: 35px;
+	display: inline;
+	font-size: 2em;
+}
+
+.main-menu-line{
+	width: 100%;
+}
+
+.container{
+	margin-left: 1em;
+	
+	}
+
+
+.main-card{
+	background-color: #1E1F26;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	border-radius: 8px;
+}
+
+.inner-card{
+	background-color: rgb(173, 154, 154);
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	left: -20px;
+	top: -8px;
+	border-radius: 8px;
+}
+
+.cards{
+	margin-left: 1em;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
